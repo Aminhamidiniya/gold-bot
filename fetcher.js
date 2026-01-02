@@ -55,6 +55,7 @@ async function fetchDataAndSend() {
   }
 }
 
-// اجرا اولیه و اجرای دوره‌ای هر 1 دقیقه
+
 fetchDataAndSend();
-setInterval(fetchDataAndSend, 60 * 1000);
+
+
